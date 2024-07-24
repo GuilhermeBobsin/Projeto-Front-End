@@ -7,16 +7,18 @@
 
 body {
     background-color: #0c141c;
-    font-family: 'Roboto', sans-serif;
     color: #fff;
     line-height: 1.6;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #1c2b3a;
+    background-color: #0c141c;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-bottom: 1px solid white;
 }
 
 nav {
@@ -41,9 +43,14 @@ nav {
 }
 
 .nome {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    color: #ffcc00;
+    color: white;
+    text-decoration: none;
+}
+
+.nome:hover {
+    color: #ff5277;
 }
 
 .nav-list {
@@ -64,7 +71,7 @@ nav {
 }
 
 .nav-item a:hover {
-    background-color: #ffcc00;
+    background-color: #ff5277;
     color: #0c141c;
     border-radius: 5px;
 }
@@ -77,32 +84,36 @@ main {
 }
 
 .sobre- {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
-.sobre- h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.sobre- h3 {
+    margin-bottom: -15px;
+    color: #ff5277;
+    letter-spacing: 1.5px;
+    font-size: 26px;
+}
+
+.sobre- h3:hover {
+    color: #ff2957;
 }
 
 .sobre- h1 {
-    font-size: 48px;
+    font-size: 80px;
     margin-bottom: 20px;
-    color: #ffcc00;
+    color: #ffffff;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 5px;
 }
 
 .sobre- p {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.8em;
     max-width: 700px;
-    margin: 0 auto;
+    font-weight: 800;
 }
 
-/* Projects Section */
-.projects {
-    text-align: center;
-}
 
 .projects h2 {
     font-size: 36px;
@@ -136,7 +147,7 @@ main {
 .project-title {
     font-size: 24px;
     margin: 15px 0;
-    color: #ffcc00;
+    color: #ff5277;
 }
 
 .project-description {
@@ -159,7 +170,7 @@ footer h1 {
 footer i {
     font-size: 24px;
     margin: 0 10px;
-    color: #ffcc00;
+    color: #ff5277;
     transition: color 0.3s;
 }
 
@@ -174,7 +185,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffcc00;
+    color: #ff5277;
 }
 
 /* Responsive Design */
